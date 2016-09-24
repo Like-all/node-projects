@@ -1,0 +1,11 @@
+#!/bin/sh
+
+environment=`cat /etc/apps/environment.type`
+
+useradd apps
+chown -R www-data:www-data /opt/it-the-drote/public/
+sdctl enable /lib/systemd/system/it-the-drote.service
+ln -s "/etc/nginx/sites-available/it-the-drote."$environment".nginx" /etc/nginx/sites-enabled/it-the-drote.nginx
+sdctl reload nginx.service
+sdctl restart rsyslog.service
+sdctl start it-the-drote.service

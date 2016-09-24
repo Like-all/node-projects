@@ -1,0 +1,14 @@
+{
+    "server": 0,
+    "uptime": "up 8 weeks, 6 days, 57 minutes",
+    "services": [
+        {
+            "name": "Main website",
+            "health": 0
+        },
+        {
+            "name": "XMPP server",
+            "health": 2
+        }
+    ]
+}

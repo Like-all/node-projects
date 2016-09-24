@@ -1,0 +1,12 @@
+[Unit]
+Description=JSON stats for various API endpoints
+After=network.target
+
+[Service]
+User=apps
+WorkingDirectory=/opt/apps-api
+ExecStart=/opt/apps-api/bin/jsonstats
+SyslogIdentifier=apps-api-jsonstats
+
+[Install]
+WantedBy=multi-user.target

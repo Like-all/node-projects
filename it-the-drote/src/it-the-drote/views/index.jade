@@ -1,0 +1,42 @@
+extends main_layout
+block content
+    ul.nav.nav-pills
+        li.active
+            a(href='#') Главная страница
+        li
+            a(href='/articles') Статьи и заметки(вместо блога)
+        li
+            a(href='/projects') Проекты
+        li
+            a(href='/dreams') Сновидения
+        li
+            a(href='/about') Обо мне
+        li
+            a(href='/cv') Резюме
+        li
+            a(href='/rss.xml') RSS
+    .col-md-10.col-md-offset-1
+        h1 Привет
+        p Здесь находится моё персональное пристанище в интернете. Сюда я пишу иногда 
+            a(href='/articles') статьи 
+            и описываю свои 
+            a(href='/dreams') сновидения.
+            Также здесь имеется 
+            a(href='/about') немного информации 
+            обо мне. Если желаете что-то прокомментировать или исправить, то Вам 
+            a(href='https://github.com/Like-all/markdown-articles') сюда.
+
+        .alert.alert-warning
+            .row
+                .col-md-3
+                    .alert.alert-info
+                        #lastfmBlock
+                        script(src="http://api.#{host}/lastfm/nowplaying/like-all", defer)
+                .col-md-3
+                    .alert.alert-info
+                        #instagramBlock
+                        script(src="http://api.#{host}/instagram/lastphoto/schmerzundtod", defer)
+                .col-md-3
+                    .alert.alert-info
+                        #duolingoBlock
+                        script(src="http://api.#{host}/duolingo/badges/LikeAll", defer)

@@ -1,0 +1,12 @@
+[Unit]
+Description=IT The Drote main site
+After=network.target
+
+[Service]
+User=apps
+WorkingDirectory=/opt/it-the-drote
+ExecStart=/usr/bin/node /opt/it-the-drote/app.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

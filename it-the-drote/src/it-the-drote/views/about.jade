@@ -1,0 +1,19 @@
+extends main_layout
+block content
+    ul.nav.nav-pills
+        li
+            a(href='/') Главная страница
+        li
+            a(href='/articles') Статьи и заметки(вместо блога)
+        li
+            a(href='/projects') Проекты
+        li
+            a(href='/dreams') Сновидения
+        li.active
+            a(href='#') Обо мне
+        li
+            a(href='/cv') Резюме
+        li
+            a(href='/rss.xml') RSS
+    .col-md-8.col-md-offset-1
+        != md(mdContent)

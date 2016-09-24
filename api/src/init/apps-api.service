@@ -1,0 +1,13 @@
+[Unit]
+Description=various API endpoints
+After=network.target
+
+[Service]
+User=apps
+WorkingDirectory=/opt/apps-api
+ExecStart=/opt/apps-api/bin/www
+SyslogIdentifier=apps-api
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

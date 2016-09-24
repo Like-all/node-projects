@@ -1,0 +1,16 @@
+#!/bin/sh
+
+case $APPS_ENVIRONMENT in
+    "development")
+        test -d /storage/dev.it-the-drote.tk/webstatic && rm -fr /storage/dev.it-the-drote.tk/webstatic
+        mv /static/ /storage/dev.it-the-drote.tk/webstatic/
+        ;;
+    "testing")
+        test -d /storage/test.it-the-drote.tk/webstatic && rm -fr /storage/test.it-the-drote.tk/webstatic
+        mv /static/ /storage/test.it-the-drote.tk/webstatic/
+        ;;
+    "production")
+        test -d /storage/it-the-drote.tk/webstatic && rm -fr /storage/it-the-drote.tk/webstatic
+        mv /static/ /storage/it-the-drote.tk/webstatic/
+        ;;
+esac

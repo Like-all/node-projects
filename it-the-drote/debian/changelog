@@ -1,0 +1,504 @@
+apps-it-the-drote (0.4-16) unstable; urgency=medium
+
+  * Letsencrypt route location
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 28 Apr 2016 21:05:00 +0300
+
+apps-it-the-drote (0.4-15) unstable; urgency=medium
+
+  * Useful links on 500-page
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 04 Mar 2016 18:06:36 +0300
+
+apps-it-the-drote (0.4-14) unstable; urgency=medium
+
+  * Move 500-page under separated location
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 04 Mar 2016 16:34:33 +0300
+
+apps-it-the-drote (0.4-13) unstable; urgency=medium
+
+  * Forgotten semicolon
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 04 Mar 2016 16:21:48 +0300
+
+apps-it-the-drote (0.4-12) unstable; urgency=medium
+
+  * 500 page
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 04 Mar 2016 16:17:10 +0300
+
+apps-it-the-drote (0.4-11) unstable; urgency=medium
+
+  * Stable version
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 03 Mar 2016 13:07:48 +0300
+
+apps-it-the-drote (0.4-10) unstable; urgency=medium
+
+  * Few cosmetic changes
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 20 Feb 2016 14:34:00 +0300
+
+apps-it-the-drote (0.4-9) unstable; urgency=medium
+
+  * Use plaintext messages in the footer
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 20 Feb 2016 13:54:39 +0300
+
+apps-it-the-drote (0.4-8) unstable; urgency=medium
+
+  * Fix variable assignment
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 15:09:19 +0300
+
+apps-it-the-drote (0.4-7) unstable; urgency=medium
+
+  * Refactoring
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 15:04:18 +0300
+
+apps-it-the-drote (0.4-6) unstable; urgency=medium
+
+  * Use .json extension
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 14:09:26 +0300
+
+apps-it-the-drote (0.4-5) unstable; urgency=medium
+
+  * Show site version in footer
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 13:47:34 +0300
+
+apps-it-the-drote (0.4-4) unstable; urgency=medium
+
+  * Align json to make it more pretty
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 13:29:17 +0300
+
+apps-it-the-drote (0.4-3) unstable; urgency=medium
+
+  * Export version in json format
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 13:27:07 +0300
+
+apps-it-the-drote (0.4-2) unstable; urgency=medium
+
+  * Testing version file
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 19 Feb 2016 13:23:08 +0300
+
+apps-it-the-drote (0.4-1) unstable; urgency=medium
+
+  * 0.4 release
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 18 Feb 2016 23:09:05 +0300
+
+apps-it-the-drote (0.3-46) unstable; urgency=medium
+
+  *Fix 404 css path 
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 18 Feb 2016 22:33:01 +0300
+
+apps-it-the-drote (0.3-45) unstable; urgency=medium
+
+  * Fix if conditions
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 15 Feb 2016 16:53:19 +0300
+
+apps-it-the-drote (0.3-44) unstable; urgency=medium
+
+  * Return proper status on 404 page
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 15 Feb 2016 16:45:43 +0300
+
+apps-it-the-drote (0.3-43) unstable; urgency=medium
+
+  * Read title only if file exists
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 15 Feb 2016 16:32:29 +0300
+
+apps-it-the-drote (0.3-42) unstable; urgency=medium
+
+  * Fix section sign visibility
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 13 Feb 2016 21:21:37 +0300
+
+apps-it-the-drote (0.3-41) unstable; urgency=medium
+
+  * Fix section sign visibility
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 13 Feb 2016 20:38:50 +0300
+
+apps-it-the-drote (0.3-40) unstable; urgency=medium
+
+  * Display section sign on hover
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 13 Feb 2016 19:52:20 +0300
+
+apps-it-the-drote (0.3-39) unstable; urgency=medium
+
+  * Place section sign after heading
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 13 Feb 2016 18:26:32 +0300
+
+apps-it-the-drote (0.3-38) unstable; urgency=medium
+
+  * Implementing section sign
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 13 Feb 2016 18:17:13 +0300
+
+apps-it-the-drote (0.3-37) unstable; urgency=medium
+
+  * Enable anchors rendering
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 03:23:42 +0300
+
+apps-it-the-drote (0.3-36) unstable; urgency=medium
+
+  * Temporary disable anchors rendering
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 03:16:59 +0300
+
+apps-it-the-drote (0.3-35) unstable; urgency=medium
+
+  * Typo fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:47:26 +0300
+
+apps-it-the-drote (0.3-34) unstable; urgency=medium
+
+  * Typo fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:47:09 +0300
+
+apps-it-the-drote (0.3-33) unstable; urgency=medium
+
+  * Use separate stylesheets for all pages
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:41:39 +0300
+
+apps-it-the-drote (0.3-32) unstable; urgency=medium
+
+  * Separate css themes for dev and production
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:36:06 +0300
+
+apps-it-the-drote (0.3-31) unstable; urgency=medium
+
+  * Generate hostnames
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:27:26 +0300
+
+apps-it-the-drote (0.3-30) unstable; urgency=medium
+
+  * Another approach to insert hostname
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:23:15 +0300
+
+apps-it-the-drote (0.3-29) unstable; urgency=medium
+
+  * Blah
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:17:21 +0300
+
+apps-it-the-drote (0.3-28) unstable; urgency=medium
+
+  * Trying to pass environment to jade template
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 02:09:59 +0300
+
+apps-it-the-drote (0.3-27) unstable; urgency=medium
+
+  * Use case block for rendering widgets
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 01:54:43 +0300
+
+apps-it-the-drote (0.3-26) unstable; urgency=medium
+
+  * Fix node.js footer image path
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 01:45:04 +0300
+
+apps-it-the-drote (0.3-25) unstable; urgency=medium
+
+  * One more attempt to fix metrika
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 01:38:33 +0300
+
+apps-it-the-drote (0.3-24) unstable; urgency=medium
+
+  * Attempt to fix metrika script
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 01:33:09 +0300
+
+apps-it-the-drote (0.3-23) unstable; urgency=medium
+
+  * Fix doctype
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 01:21:56 +0300
+
+apps-it-the-drote (0.3-22) unstable; urgency=medium
+
+  * Use new layout everywhere
+  * Update marked and jade
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 07 Feb 2016 00:40:36 +0300
+
+apps-it-the-drote (0.3-21) unstable; urgency=medium
+
+  * Try new layout
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 23 Jan 2016 16:44:36 +0300
+
+apps-it-the-drote (0.3-20) unstable; urgency=medium
+
+  * /ping endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 19 Jan 2016 22:00:25 +0300
+
+apps-it-the-drote (0.3-19) unstable; urgency=medium
+
+  * Fix rss.xml location in production config
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 19 Jan 2016 16:36:10 +0300
+
+apps-it-the-drote (0.3-18) unstable; urgency=medium
+
+  * Manage rss.xml with nginx
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 19 Jan 2016 16:18:57 +0300
+
+apps-it-the-drote (0.3-17) unstable; urgency=medium
+
+  * Fix post-merge hook
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 18 Jan 2016 00:03:18 +0300
+
+apps-it-the-drote (0.3-16) unstable; urgency=medium
+
+  * Symlink fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 17 Jan 2016 23:50:35 +0300
+
+apps-it-the-drote (0.3-15) unstable; urgency=medium
+
+  * New post-merge rss generator
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 17 Jan 2016 23:15:26 +0300
+
+apps-it-the-drote (0.3-14) unstable; urgency=medium
+
+  * New brand Node.js picture
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 11 Jan 2016 16:45:13 +0200
+
+apps-it-the-drote (0.3-13) unstable; urgency=medium
+
+  * Change footer offset
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 11 Jan 2016 16:21:50 +0300
+
+apps-it-the-drote (0.3-12) unstable; urgency=medium
+
+  * Footer alignment
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 11 Jan 2016 16:08:52 +0300
+
+apps-it-the-drote (0.3-11) unstable; urgency=medium
+
+  * Fix footer color
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 14:33:27 +0300
+
+apps-it-the-drote (0.3-10) unstable; urgency=medium
+
+  * Images location, portrait and css tricks
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 14:28:03 +0300
+
+apps-it-the-drote (0.3-9) unstable; urgency=medium
+
+  * One more attempt to make fucking footer
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 13:48:53 +0300
+
+apps-it-the-drote (0.3-8) unstable; urgency=medium
+
+  * blah
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 02:48:45 +0300
+
+apps-it-the-drote (0.3-7) unstable; urgency=medium
+
+  * Use solarized theme for bootstrap
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 02:41:15 +0300
+
+apps-it-the-drote (0.3-6) unstable; urgency=medium
+
+  * Text alignment
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 02:24:26 +0300
+
+apps-it-the-drote (0.3-5) unstable; urgency=medium
+
+  * Index page widgets alignment
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 02:11:24 +0300
+
+apps-it-the-drote (0.3-4) unstable; urgency=medium
+
+  * Blah
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 01:59:20 +0300
+
+apps-it-the-drote (0.3-3) unstable; urgency=medium
+
+  * Tiny alert block
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 01:52:22 +0300
+
+apps-it-the-drote (0.3-2) unstable; urgency=medium
+
+  * Next attempt to make footer
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 01:44:50 +0300
+
+apps-it-the-drote (0.3-1) unstable; urgency=medium
+
+  * Migration to bootstrap v3.x
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 01:36:15 +0300
+
+apps-it-the-drote (0.2-14) unstable; urgency=medium
+
+  * An attempt to make footer
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 01:21:03 +0300
+
+apps-it-the-drote (0.2-13) unstable; urgency=medium
+
+  * New layout scheme
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 00:58:00 +0300
+
+apps-it-the-drote (0.2-12) unstable; urgency=medium
+
+  * Trying to make an offset
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 00:42:52 +0300
+
+apps-it-the-drote (0.2-11) unstable; urgency=medium
+
+  * Use defer only
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 20:28:52 +0300
+
+apps-it-the-drote (0.2-10) unstable; urgency=medium
+
+  * Use defer when script loads
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 19:22:56 +0300
+
+apps-it-the-drote (0.2-9) unstable; urgency=medium
+
+  * Enable Cache control
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:57:32 +0300
+
+apps-it-the-drote (0.2-8) unstable; urgency=medium
+
+  * Load CSS after all resources
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:47:56 +0300
+
+apps-it-the-drote (0.2-7) unstable; urgency=medium
+
+  * Improve gzip options
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:40:16 +0300
+
+apps-it-the-drote (0.2-6) unstable; urgency=medium
+
+  * CSS lazyload
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:30:07 +0300
+
+apps-it-the-drote (0.2-5) unstable; urgency=medium
+
+  * Load all scripts asynchronously
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:19:25 +0300
+
+apps-it-the-drote (0.2-4) unstable; urgency=medium
+
+  * Load scripts asynchronously
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:13:09 +0300
+
+apps-it-the-drote (0.2-3) unstable; urgency=medium
+
+  * Use minified version of jquery
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 18:08:38 +0300
+
+apps-it-the-drote (0.2-2) unstable; urgency=medium
+
+  * Use gzip for static content
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 17:53:52 +0300
+
+apps-it-the-drote (0.2-1) unstable; urgency=medium
+
+  * Get rid of old code
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 17:42:01 +0300
+
+apps-it-the-drote (0.1-8) unstable; urgency=medium
+
+  * Use lastfm API
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 17:34:03 +0300
+
+apps-it-the-drote (0.1-7) unstable; urgency=medium
+
+  * Get rid of internal markdown directory
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 27 Dec 2015 01:33:50 +0200
+
+apps-it-the-drote (0.1-6) unstable; urgency=medium
+
+  * switch to external markdown directory
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 26 Dec 2015 23:52:20 +0200
+
+apps-it-the-drote (0.1-5) unstable; urgency=medium
+
+  * Use instagram API
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 16:55:23 +0200
+
+apps-it-the-drote (0.1-4) unstable; urgency=medium
+
+  * Symbolic link hotfix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 13:51:59 +0200
+
+apps-it-the-drote (0.1-3) unstable; urgency=medium
+
+  * Use new api
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 13:47:54 +0200
+
+apps-it-the-drote (0.1-2) unstable; urgency=medium
+
+  * fix installation paths
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 04 Dec 2015 18:11:24 +0200
+
+apps-it-the-drote (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 04 Dec 2015 12:42:46 +0200

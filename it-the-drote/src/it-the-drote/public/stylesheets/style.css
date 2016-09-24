@@ -1,0 +1,47 @@
+* {
+  text-align: justify;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+  padding: 10px;
+}
+
+img {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.centered {
+  vertical-align: bottom;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.section {
+    visibility: hidden;
+}
+
+h1:hover .section,
+h2:hover .section,
+h3:hover .section,
+h4:hover .section,
+h5:hover .section,
+h6:hover .section {
+    visibility: visible;
+}

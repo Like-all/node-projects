@@ -1,0 +1,844 @@
+apps-api (0.5-61) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 20 Aug 2016 22:10:17 +0300
+
+apps-api (0.5-60) unstable; urgency=medium
+
+  * Restart service on failure
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 20 Aug 2016 21:51:07 +0300
+
+apps-api (0.5-59) unstable; urgency=medium
+
+  * array of options
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 20 Aug 2016 21:31:00 +0300
+
+apps-api (0.5-58) unstable; urgency=medium
+
+  * Build again
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 20 Aug 2016 20:28:55 +0300
+
+apps-api (0.5-57) unstable; urgency=medium
+
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 11 Aug 2016 23:05:03 +0300
+
+apps-api (0.5-56) unstable; urgency=medium
+
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 11 Aug 2016 22:46:49 +0300
+
+apps-api (0.5-55) unstable; urgency=medium
+
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 11 Aug 2016 22:21:17 +0300
+
+apps-api (0.5-54) unstable; urgency=medium
+
+  * Stringify the payload
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 06 Aug 2016 00:15:41 +0300
+
+apps-api (0.5-53) unstable; urgency=medium
+
+  * Build the package
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 06 Aug 2016 00:11:01 +0300
+
+apps-api (0.5-52) unstable; urgency=medium
+
+  * Build the package
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 06 Aug 2016 00:02:02 +0300
+
+apps-api (0.5-51) unstable; urgency=medium
+
+  * Stringify post parameters
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 05 Aug 2016 23:52:40 +0300
+
+apps-api (0.5-50) unstable; urgency=medium
+
+  * Build the package
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 05 Aug 2016 23:44:36 +0300
+
+apps-api (0.5-49) unstable; urgency=medium
+
+  * Request object to string
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 05 Aug 2016 23:42:47 +0300
+
+apps-api (0.5-48) unstable; urgency=medium
+
+  * Build the package
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 05 Aug 2016 23:31:57 +0300
+
+apps-api (0.5-47) unstable; urgency=medium
+
+  * Build-deb webhook stub
+  * Test
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 05 Aug 2016 23:28:58 +0300
+
+apps-api (0.5-46) unstable; urgency=medium
+
+  * trigger webhook
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 05 Aug 2016 23:19:50 +0300
+
+apps-api (0.5-45) unstable; urgency=medium
+
+  * Properly parse chat id
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 04 Jul 2016 19:14:02 +0300
+
+apps-api (0.5-44) unstable; urgency=medium
+
+  * Fetch default chat id from file
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 04 Jul 2016 18:56:08 +0300
+
+apps-api (0.5-43) unstable; urgency=medium
+
+  * Fool mkdir command
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 04 Jul 2016 17:16:37 +0300
+
+apps-api (0.5-42) unstable; urgency=medium
+
+  * Fix permissions and scripts execution
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 10 May 2016 22:25:26 +0300
+
+apps-api (0.5-41) unstable; urgency=medium
+
+  * Cron job for status.json
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 10 May 2016 22:19:54 +0300
+
+apps-api (0.5-40) unstable; urgency=medium
+
+  * Fix example json
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 05 May 2016 12:29:32 +0300
+
+apps-api (0.5-39) unstable; urgency=medium
+
+  * Enable CORS on /status/
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 05 May 2016 12:19:27 +0300
+
+apps-api (0.5-38) unstable; urgency=medium
+
+  * Server status example
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 05 May 2016 12:00:22 +0300
+
+apps-api (0.5-37) unstable; urgency=medium
+
+  * Rewrite json instead of appending
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 01 Mar 2016 14:51:23 +0300
+
+apps-api (0.5-36) unstable; urgency=medium
+
+  * Fix jshint errors and include fs library
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 01 Mar 2016 14:47:23 +0300
+
+apps-api (0.5-35) unstable; urgency=medium
+
+  * Real system usage endpoints
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 01 Mar 2016 14:43:06 +0300
+
+apps-api (0.5-34) unstable; urgency=medium
+
+  * Fix module exporting
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 29 Feb 2016 22:00:52 +0300
+
+apps-api (0.5-33) unstable; urgency=medium
+
+  * Enable board endpoints
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 29 Feb 2016 21:55:45 +0300
+
+apps-api (0.5-32) unstable; urgency=medium
+
+  * Implement CPU metrics
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 29 Feb 2016 21:48:20 +0300
+
+apps-api (0.5-31) unstable; urgency=medium
+
+  * Implement CPU metrics
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 29 Feb 2016 21:47:53 +0300
+
+apps-api (0.5-30) unstable; urgency=medium
+
+  * Fix /ping endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 19 Jan 2016 22:05:12 +0300
+
+apps-api (0.5-29) unstable; urgency=medium
+
+  * Update dependencies
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 19 Jan 2016 16:42:43 +0300
+
+apps-api (0.5-28) unstable; urgency=medium
+
+  * Ping endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 23:54:38 +0300
+
+apps-api (0.5-27) unstable; urgency=medium
+
+  * Improve instagram API
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 23:44:23 +0300
+
+apps-api (0.5-26) unstable; urgency=medium
+
+  * Put try-catch in the right place
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 23:28:14 +0300
+
+apps-api (0.5-25) unstable; urgency=medium
+
+  * Log chunks
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 23:17:50 +0300
+
+apps-api (0.5-24) unstable; urgency=medium
+
+  * Log userinfo to debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 23:11:44 +0300
+
+apps-api (0.5-23) unstable; urgency=medium
+
+  * More debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 18:32:32 +0300
+
+apps-api (0.5-22) unstable; urgency=medium
+
+  * Debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 18:27:11 +0300
+
+apps-api (0.5-21) unstable; urgency=medium
+
+  * Fix missing bracket
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 18:17:42 +0300
+
+apps-api (0.5-20) unstable; urgency=medium
+
+  * Blah
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 18:15:40 +0300
+
+apps-api (0.5-19) unstable; urgency=medium
+
+  * Parse error wraparound
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 18:13:03 +0300
+
+apps-api (0.5-18) unstable; urgency=medium
+
+  * Do not store duolingo-info on parse error
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 14:50:49 +0300
+
+apps-api (0.5-17) unstable; urgency=medium
+
+  * Improve API stability
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 14:31:10 +0300
+
+apps-api (0.5-16) unstable; urgency=medium
+
+  * Unlink socket if exists
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 14:19:51 +0300
+
+apps-api (0.5-15) unstable; urgency=medium
+
+  * Missing bracket fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 14:09:33 +0300
+
+apps-api (0.5-14) unstable; urgency=medium
+
+  * Fault-tolerant duolingo endpoint.
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 16 Jan 2016 14:06:24 +0300
+
+apps-api (0.5-13) unstable; urgency=medium
+
+  * Strip debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 11 Jan 2016 16:45:08 +0300
+
+apps-api (0.5-12) unstable; urgency=medium
+
+  * Change working directory back after git clone
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 06 Jan 2016 00:23:15 +0300
+
+apps-api (0.5-11) unstable; urgency=medium
+
+  * Use hyperlinks in captions
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 23:49:22 +0300
+
+apps-api (0.5-10) unstable; urgency=medium
+
+  * Get rid of hardcode
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 23:35:54 +0300
+
+apps-api (0.5-9) unstable; urgency=medium
+
+  * badge number position fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 21:30:09 +0300
+
+apps-api (0.5-8) unstable; urgency=medium
+
+  * Use proper path for countryballs
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 20:15:31 +0200
+
+apps-api (0.5-7) unstable; urgency=medium
+
+  * Use images from dev
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 20:01:40 +0200
+
+apps-api (0.5-6) unstable; urgency=medium
+
+  * New badges
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 19:54:08 +0200
+
+apps-api (0.5-5) unstable; urgency=medium
+
+  * Use lastfm route
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 17:22:06 +0300
+
+apps-api (0.5-4) unstable; urgency=medium
+
+  * Use lastfm keys properly
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 17:05:51 +0300
+
+apps-api (0.5-3) unstable; urgency=medium
+
+  * Fix jshint errors
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 16:39:33 +0300
+
+apps-api (0.5-2) unstable; urgency=medium
+
+  * blah
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 16:37:39 +0300
+
+apps-api (0.5-1) unstable; urgency=medium
+
+  * Introducing Last.fm API
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 05 Jan 2016 16:37:00 +0300
+
+apps-api (0.4-14) unstable; urgency=medium
+
+  * Parse json content before adding it to memcache
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 28 Dec 2015 15:47:42 +0200
+
+apps-api (0.4-13) unstable; urgency=medium
+
+  * debug json output
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 27 Dec 2015 02:08:48 +0200
+
+apps-api (0.4-12) unstable; urgency=medium
+
+  * More debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 27 Dec 2015 01:56:31 +0200
+
+apps-api (0.4-11) unstable; urgency=medium
+
+  * Debugging memcache in instagram endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 27 Dec 2015 01:49:37 +0200
+
+apps-api (0.4-10) unstable; urgency=medium
+
+  * Apply css rule to the whole block
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 27 Dec 2015 01:23:04 +0200
+
+apps-api (0.4-9) unstable; urgency=medium
+
+  * Use centering css rule for instagram block
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 27 Dec 2015 01:14:33 +0200
+
+apps-api (0.4-8) unstable; urgency=medium
+
+  * Use token from query string
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 26 Dec 2015 23:39:31 +0200
+
+apps-api (0.4-7) unstable; urgency=medium
+
+  * Debug output token
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sat, 26 Dec 2015 22:28:28 +0200
+
+apps-api (0.4-6) unstable; urgency=medium
+
+  * Remove sigchld handling
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 18:54:16 +0200
+
+apps-api (0.4-5) unstable; urgency=medium
+
+  * Proper status messages
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 18:42:09 +0200
+
+apps-api (0.4-4) unstable; urgency=medium
+
+  * Remove deprecated functions
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 18:28:48 +0200
+
+apps-api (0.4-3) unstable; urgency=medium
+
+  * Finish webhook request properly
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 18:23:36 +0200
+
+apps-api (0.4-2) unstable; urgency=medium
+
+  * Webhook hotfix endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 18:10:39 +0200
+
+apps-api (0.4-1) unstable; urgency=medium
+
+  * Webhook endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 18:01:29 +0200
+
+apps-api (0.3-18) unstable; urgency=medium
+
+  * instagram url trailing slash
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 16:47:30 +0200
+
+apps-api (0.3-17) unstable; urgency=medium
+
+  * Debug status code
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 16:39:28 +0200
+
+apps-api (0.3-16) unstable; urgency=medium
+
+  * Debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 23 Dec 2015 16:27:54 +0200
+
+apps-api (0.3-15) unstable; urgency=medium
+
+  * Debug log chunk
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Mon, 21 Dec 2015 13:37:33 +0200
+
+apps-api (0.3-14) unstable; urgency=medium
+
+  * debug html output
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 20 Dec 2015 01:08:12 +0200
+
+apps-api (0.3-13) unstable; urgency=medium
+
+  * add some debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 20 Dec 2015 00:59:58 +0200
+
+apps-api (0.3-12) unstable; urgency=medium
+
+  * Attempt to fix the build
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 20 Dec 2015 00:45:53 +0200
+
+apps-api (0.3-11) unstable; urgency=medium
+
+  * some fixes
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 20 Dec 2015 00:28:08 +0200
+
+apps-api (0.3-10) unstable; urgency=medium
+
+  * instagram api endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Sun, 20 Dec 2015 00:05:49 +0200
+
+apps-api (0.3-9) unstable; urgency=medium
+
+  * Fix telegram endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 16:51:50 +0200
+
+apps-api (0.3-8) unstable; urgency=medium
+
+  * Fix routes
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 16:46:34 +0200
+
+apps-api (0.3-7) unstable; urgency=medium
+
+  * Split api endpoints into separate files
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 16:29:23 +0200
+
+apps-api (0.3-6) unstable; urgency=medium
+
+  * Export pisun bot recipient to datasources
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 16:02:50 +0200
+
+apps-api (0.3-5) unstable; urgency=medium
+
+  * use telegram endpoint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 15:40:52 +0200
+
+apps-api (0.3-4) unstable; urgency=medium
+
+  * Remove extra semicolon
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 15:22:26 +0200
+
+apps-api (0.3-3) unstable; urgency=medium
+
+  * trying to use jshint
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 15:20:27 +0200
+
+apps-api (0.3-2) unstable; urgency=medium
+
+  * Fix undefined
+  * Forgotten semicolons
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 14:38:25 +0200
+
+apps-api (0.3-1) unstable; urgency=medium
+
+  * New building rules
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 14:16:35 +0200
+
+apps-api (0.2-28) unstable; urgency=medium
+
+  * Properly iterate over languages
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 13:14:06 +0200
+
+apps-api (0.2-27) unstable; urgency=medium
+
+  * Fix conversion to json
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 12:32:25 +0200
+
+apps-api (0.2-26) unstable; urgency=medium
+
+  * Proper setting of content-type
+  * Converting string to json
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 12:11:07 +0200
+
+apps-api (0.2-25) unstable; urgency=medium
+
+  * Debug symbols and Content-Type header
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 18 Dec 2015 11:56:03 +0200
+
+apps-api (0.2-24) unstable; urgency=medium
+
+  * Debug messages
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 20:07:14 +0200
+
+apps-api (0.2-23) unstable; urgency=medium
+
+  * langs debug
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 19:13:47 +0200
+
+apps-api (0.2-22) unstable; urgency=medium
+
+  * makeHtmlContent var hotfix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 18:58:29 +0200
+
+apps-api (0.2-21) unstable; urgency=medium
+
+  * makeHtmlContent var hotfix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 18:47:09 +0200
+
+apps-api (0.2-20) unstable; urgency=medium
+
+  * makeHtmlContent function
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 18:12:32 +0200
+
+apps-api (0.2-19) unstable; urgency=medium
+
+  * Fix template file reading
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 16:20:13 +0200
+
+apps-api (0.2-18) unstable; urgency=medium
+
+  * Replace dot.js with string-template
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 15:49:06 +0200
+
+apps-api (0.2-17) unstable; urgency=medium
+
+  * API dev hostname fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 13:44:02 +0200
+
+apps-api (0.2-16) unstable; urgency=medium
+
+  * Leicht library path hotfix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 17 Dec 2015 13:33:21 +0200
+
+apps-api (0.2-15) unstable; urgency=medium
+
+  * hooyaks v testing
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 16 Dec 2015 17:39:11 +0200
+
+apps-api (0.2-14) unstable; urgency=medium
+
+  * HOTFIX: require fs module
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 14 Aug 2015 17:59:10 +0300
+
+apps-api (0.2-13) unstable; urgency=medium
+
+  * recipient field in jabber api
+  * check if bot's socket exists
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 14 Aug 2015 17:53:23 +0300
+
+apps-api (0.2-12) unstable; urgency=medium
+
+  * jabber api stubs
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 14 Aug 2015 17:41:46 +0300
+
+apps-api (0.2-11) unstable; urgency=medium
+
+  * Fix installation of nginx configs from Makefile
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 13 Aug 2015 01:18:47 +0300
+
+apps-api (0.2-10) unstable; urgency=medium
+
+  * And one more postinstall fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 12 Aug 2015 11:32:35 +0300
+
+apps-api (0.2-9) unstable; urgency=medium
+
+  * One more postinstall fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 12 Aug 2015 11:25:28 +0300
+
+apps-api (0.2-8) unstable; urgency=medium
+
+  * Fix postinstall and postrm
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 12 Aug 2015 10:54:18 +0300
+
+apps-api (0.2-7) unstable; urgency=medium
+
+  * Separate nginx configs
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 12 Aug 2015 10:37:11 +0300
+
+apps-api (0.2-6) unstable; urgency=medium
+
+  * Dependencies list fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 11 Aug 2015 20:34:45 +0300
+
+apps-api (0.2-5) unstable; urgency=medium
+
+  * Syslog identifier changed
+  * Capturing SIGTERM
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 11 Aug 2015 16:48:31 +0300
+
+apps-api (0.2-4) unstable; urgency=medium
+
+  * Restart rsyslog in postinstall
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 11 Aug 2015 16:29:58 +0300
+
+apps-api (0.2-3) unstable; urgency=medium
+
+  * Fix installation of the node.js part
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 11 Aug 2015 16:14:36 +0300
+
+apps-api (0.2-2) unstable; urgency=medium
+
+  * Fix postinstall and prerm
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 11 Aug 2015 16:12:47 +0300
+
+apps-api (0.2-1) unstable; urgency=medium
+
+  * Trying to rewrite this shit in node.js
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Tue, 11 Aug 2015 15:56:02 +0300
+
+apps-api (0.1-18) unstable; urgency=medium
+
+  * Monitoring api stub
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Fri, 17 Apr 2015 12:28:15 +0300
+
+apps-api (0.1-17) unstable; urgency=medium
+
+  * One more version bump
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 09 Apr 2015 16:46:59 +0300
+
+apps-api (0.1-16) unstable; urgency=medium
+
+  * Another version bump
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 09 Apr 2015 16:01:44 +0300
+
+apps-api (0.1-15) unstable; urgency=medium
+
+  * Version bump
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 09 Apr 2015 15:33:30 +0300
+
+apps-api (0.1-14) unstable; urgency=medium
+
+  * symlinks for unreleased countryballs
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Thu, 09 Apr 2015 09:58:35 +0300
+
+apps-api (0.1-13) unstable; urgency=medium
+
+  * typo fix
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 20:23:44 +0300
+
+apps-api (0.1-12) unstable; urgency=medium
+
+  * fix unnecessary escaping
+  * rename icon files
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 20:11:25 +0300
+
+apps-api (0.1-11) unstable; urgency=medium
+
+  * javascript code generation
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 19:58:59 +0300
+
+apps-api (0.1-10) unstable; urgency=medium
+
+  * Fix json unmarshalling
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 17:45:48 +0300
+
+apps-api (0.1-9) unstable; urgency=medium
+
+  * Display raw json
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 17:31:31 +0300
+
+apps-api (0.1-8) unstable; urgency=medium
+
+  * Display json structure
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 17:25:17 +0300
+
+apps-api (0.1-7) unstable; urgency=medium
+
+  * Testing json rendering
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 17:20:08 +0300
+
+apps-api (0.1-6) unstable; urgency=medium
+
+  * Testing middleware execution
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 17:05:43 +0300
+
+apps-api (0.1-5) unstable; urgency=medium
+
+  * CSP headers in NGINX
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 16:30:23 +0300
+
+apps-api (0.1-4) unstable; urgency=medium
+
+  * Handling duolingo endpoints
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 15:57:51 +0300
+
+apps-api (0.1-3) unstable; urgency=medium
+
+  * fix clean in Makefile
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 12:33:02 +0300
+
+apps-api (0.1-2) unstable; urgency=medium
+
+  * Installing python middleware
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 12:24:07 +0300
+
+apps-api (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Azer Abdullaev (Like All) <like-all@yandex.com>  Wed, 08 Apr 2015 11:40:10 +0300

@@ -1,0 +1,11 @@
+Source: apps-api
+Section: misc
+Priority: optional
+Maintainer: Azer Abdullaev (Like All) <like-all@yandex.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: apps-api
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs (>= 0.12), tools-pisun, hosts-dropins, memcached, git
+Description: various API endpoints

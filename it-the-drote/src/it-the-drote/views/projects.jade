@@ -1,0 +1,29 @@
+extends main_layout
+block content
+    ul.nav.nav-pills
+        li
+            a(href='/') Главная страница
+        li
+            a(href='/articles') Статьи и заметки(вместо блога)
+        li.active
+            a(href='/projects') Проекты
+        li
+            a(href='/dreams') Сновидения
+        li
+            a(href='/about') Обо мне
+        li
+            a(href='/cv') Резюме
+        li
+            a(href='/rss.xml') RSS
+    .col-md-8.col-md-offset-1
+        != md(mdContent)
+        <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+        <a class="addthis_button_facebook"></a>
+        <a class="addthis_button_twitter"></a>
+        <a class="addthis_button_google_plusone_share"></a>
+        <a class="addthis_button_vk"></a>
+        <a class="addthis_button_evernote"></a>
+        </div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5248cf9246f7fd3d"></script>
+        <!-- AddThis Button END -->

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+mkdir /tmp/jsonstats || true
+
+cd /opt/apps-api/bin/plugins
+
+for i in `ls`; do
+    ./$i
+done
+
+cat << EOF > /opt/apps-api/public/status/status.json
+{
+    "server": 0,
+    "uptime": "`uptime`",
+    "services": `cat /tmp/jsonstats/*.json | jq -s .`
+}
+EOF

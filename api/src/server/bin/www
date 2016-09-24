@@ -1,0 +1,66 @@
+#!/usr/bin/env node
+
+var app = require('../app');
+var debug = require('debug')('server:server');
+var http = require('http');
+var fs = require('fs');
+var settings = require('/etc/datasources/apps-api.json');
+
+var server = http.createServer(app);
+
+try {
+    if(fs.statSync(settings.socketPath)) {
+        fs.unlinkSync(settings.socketPath);
+        console.log('Socket ' + settings.socketPath + ' exists! Removing...');
+    }
+} catch(err) {
+    console.log('Everything is ok, starting API...');
+}
+
+server.listen(settings.socketPath);
+fs.chmodSync(settings.socketPath, 0666);
+server.on('error', onError);
+server.on('listening', onListening);
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  switch (error.code) {
+    case 'EACCES':
+      console.error(settings.socketPath + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(settings.socketPath + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + settings.socketPath);
+}
+
+process.on('SIGINT', function() {
+    console.log("Caught interrupt signal");
+    fs.unlinkSync(settings.socketPath);
+    process.exit();
+});
+process.on('SIGCHLD', function() {
+    console.log("Caught SIGCHLD signal");
+    //fs.unlinkSync(settings.socketPath);
+    //process.exit();
+});
+process.on('SIGTERM', function() {
+    console.log("Caught SIGCHLD signal");
+    fs.unlinkSync(settings.socketPath);
+    process.exit();
+});

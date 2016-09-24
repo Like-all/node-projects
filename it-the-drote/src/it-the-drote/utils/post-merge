@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+files=`git log --name-status $rev | grep -P 'A\t|M\t' | grep -v 'static/' | grep -v 'utils/' | head -n 20 | sed 's/\t/;/'`
+working_directory="/home/apps/it-the-drote/markdown-content/"
+rss_file="/home/apps/it-the-drote/rss.xml"
+
+echo '<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>IT The Drote news feed</title>
+    <link>http://it-the-drote.tk</link>
+    <description>Новые статьи, обзоры, сновидения и проекты</description>
+    <language>ru-ru</language>
+    <pubDate>'`date '+%a, %d %b %Y %H:%M:%S %Z'`'</pubDate>
+
+    <lastBuildDate>'`date '+%a, %d %b %Y %H:%M:%S %Z'`'</lastBuildDate>
+    <docs>http://it-the-drote.tk/rss.xml</docs>
+    <generator>IT The Drote web application v'`dpkg -l | grep apps-it-the-drote | awk '{print $3}'`'</generator>
+    <managingEditor>like-all@yandex.com</managingEditor>
+    <webMaster>like-all@yandex.com</webMaster>' > $rss_file
+
+for i in $files;do
+    doctype=`echo $i | cut -f 1 -d ';'`
+    docfile=`echo $i | cut -f 2 -d ';' | sed 's/"//g'`
+    docfile=`printf $docfile`
+    echo -e "Type: $doctype\nFile: $docfile"
+    if [ -f $working_directory$docfile ]; then
+        echo '    <item>' >> $rss_file
+        case $doctype in
+            "A")
+                echo '      <title>Новый материал: '`head -n 1 $working_directory$docfile`'</title>' >> $rss_file
+                ;;
+            "M")
+                echo '      <title>Отредактировано: '`head -n 1 $working_directory$docfile`'</title>' >> $rss_file
+                ;;
+        esac
+        echo '      <link>http://it-the-drote.tk/'`echo $docfile | sed 's|articles|article|;s|dreams|dream|;s|projects|project|;s|\.md||'`'</link>' >> $rss_file
+        echo '      <description>''</description>' >> $rss_file
+        echo '      <pubDate>'`ls -l --time-style '+%a, %d %b %Y %H:%M:%S %Z' $working_directory$docfile | cut -f 6-11 -d ' '`'</pubDate>' >> $rss_file
+        echo '      <guid>http://it-the-drote.tk/'`echo $docfile | sed 's|articles|article|;s|dreams|dream|;s|projects|project|;s|\.md||'`'</guid>' >> $rss_file
+        echo '    </item>' >> $rss_file
+    fi
+done
+
+echo '  </channel>
+</rss>' >> $rss_file

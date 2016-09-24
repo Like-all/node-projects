@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sleep 15
+echo `date`": foo-bar" >> /tmp/build-deb.log

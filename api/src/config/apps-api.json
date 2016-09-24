@@ -1,0 +1,8 @@
+{
+    "pisunBotToken": "***",
+    "webhookToken": "***",
+    "lastfmToken": "***",
+    "sensuApiCredentials": "***",
+    "pisunBotRecipient": "/etc/datasources/pisun-default-chat",
+    "socketPath": "/tmp/apps-api.sock"
+}

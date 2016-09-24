@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sdctl disable /lib/systemd/system/apps-api.service
+sdctl disable /lib/systemd/system/apps-api-jsonstats.service
+rm /etc/nginx/sites-enabled/apps-api.nginx
+sdctl reload nginx.service
+sdctl stop apps-api.service
+sdctl stop apps-api-jsonstats.service

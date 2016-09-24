@@ -1,0 +1,3 @@
+src/it-the-drote/ /opt/
+src/init/* /lib/systemd/system/
+src/nginx/* /etc/nginx/sites-available/

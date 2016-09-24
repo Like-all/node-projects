@@ -1,0 +1,25 @@
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name api.it-the-drote.tk;
+
+    access_log /var/log/nginx/apps-api-access.log;
+
+    location / {
+        proxy_pass http://unix:/tmp/apps-api.sock:/;
+        proxy_redirect        off;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_pass_header Set-Cookie;
+
+        add_header Content-Security-Policy "script-src 'none'";
+    }
+
+    location /static {
+        root /usr/share/apps-api;
+        autoindex on;
+        charset utf-8;
+    }
+}

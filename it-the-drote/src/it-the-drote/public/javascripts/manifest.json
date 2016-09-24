@@ -1,0 +1,10 @@
+{
+	"version": "0.1",
+	"api_version": 1,
+
+	"layout": {
+		"logo": "http://it-the-drote.tk/images/it-the-drote.png",
+		"color": "#cccccc",
+		"show_title": false
+	}
+}

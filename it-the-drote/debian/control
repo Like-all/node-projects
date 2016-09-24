@@ -1,0 +1,12 @@
+Source: apps-it-the-drote
+Section: misc
+Priority: optional
+Maintainer: Azer Abdullaev (Like All) <like-all@yandex.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://it-the-drote.tk
+
+Package: apps-it-the-drote
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: IT The Drote website
